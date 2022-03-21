@@ -1,0 +1,29 @@
+$bgcolor: lightblue;
+$textcolor: darkblue;
+$fontsize: 18px;
+
+body {
+  background-color: $bgcolor;
+  color: $textcolor;
+  font-size: $fontsize;
+}
+
+.Barra01 {
+    @extend .navbar;
+    @extend .navbar-inverse;
+}
+.Barra01 {
+    ul {
+        @extend .nav;
+        @extend .navbar-nav;
+        @extend .navbar-right;
+        > li a.active {
+            &,
+            &:hover,
+            &:focus {
+                color: $navbar-inverse-link-active-color;
+                background-color: $navbar-inverse-link-active-bg;
+            }
+        }
+    }
+}

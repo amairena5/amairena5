@@ -1,0 +1,71 @@
+#Inicio {
+  background-color: #ffffba;
+  display: ruby-base-container;
+  max-width: 1600px;
+  min-width: 500px;
+}
+
+#Inicio justify-content:fit-content
+image {
+  width: "1600";
+  height: "800";
+}
+
+#Inicio div {
+  ruby-align: left;
+  padding: large;
+  opacity: 100%;
+}
+
+#Inicio h1 {
+  font: size xx-large;
+}
+
+#top ul {
+  top: auto;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+#top ul li a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+#top ul li a:hover {
+  background-color: #111;
+}
+
+#top ul {
+  top: auto;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+#top ul li a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+#top ul li a:hover {
+  background-color: #111;
+}
+
+body {
+  background-color: #ffb3ba;
+}
+/*# sourceMappingURL=style.css.map */
