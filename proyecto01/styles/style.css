@@ -1,0 +1,75 @@
+#Inicio {
+  background-color: #ffffba;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  max-width: 1600px;
+  min-width: 500px;
+}
+
+#Inicio image {
+  width: "1600";
+  height: "800";
+}
+
+#Inicio div {
+  padding: large;
+  opacity: 100%;
+}
+
+#Inicio h1 {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 50pt;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Playfair Display";
+  letter-spacing: 5px;
+}
+
+#top {
+  max-width: 1600px;
+  min-width: 500px;
+}
+
+#top ul {
+  top: auto;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+#top ul li a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+#top ul li a:hover {
+  background-color: #111;
+}
+
+body .grid-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto auto;
+      grid-template-columns: auto auto auto;
+  background-color: #2196F3;
+  padding: 10px;
+}
+
+body .grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+/*# sourceMappingURL=style.css.map */
